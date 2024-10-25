@@ -1,0 +1,20 @@
+#TODO:Binary to Decimal Conversion with Explanation
+# Choose a binary number string, such as "1101".
+# Write out the powers of 2 for each position manually, as shown in the example above.
+# Calculate the decimal value on paper or by hand.
+# Verify your calculation using the int() function in Python.
+
+# Choose a binary number string, such as "1101".
+binary_number = "1101"
+
+# Write out the powers of 2 for each position manually, as shown in the example above.
+# - Starting from the right:
+#      - 1 (rightmost) → \(2^0\) = 1
+#      - 1 → \(2^1\) = 2
+#      - 0 → \(2^2\) = 0
+#      - 1 (leftmost) → \(2^3\) = 8
+
+result = int(binary_number, 2)
+
+# Verify your calculation using the int() function in Python.
+print(result)
